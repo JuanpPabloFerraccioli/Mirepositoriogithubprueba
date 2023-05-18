@@ -1,0 +1,32 @@
+/* CLASE 3 */
+@font-face {
+  font-family: noto sans;
+  src: url(../);
+}
+
+
+h1{
+  color: blue;  
+}
+#parrafo{
+    background-color: blueviolet;
+}
+.parrafo2{
+    background-color: brown;
+}
+/* CLASE 5*/
+
+  /* GRIDS 1  */
+
+  .caja1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+  }
+  
+  .numerocajauno{
+    color: white;
+    justify-content: center;
+
+
+  }
