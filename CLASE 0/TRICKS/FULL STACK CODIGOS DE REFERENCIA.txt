@@ -1,8 +1,0 @@
-Desarrollo Web
-Código de referencia: #42880
-JavaScript
-Código de referencia: #43165
-React Js
-Código de referencia: #47205
-Programación Backend
-Código de referencia: #50000
