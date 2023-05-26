@@ -49,7 +49,7 @@ position: absolute;bottom: 200px;
     color: white;
     
 }
-
+/* INDEX SECTION 2 */
 .listasM{
     color: white;
     list-style: none;
@@ -58,17 +58,24 @@ position: absolute;bottom: 200px;
 .logoseguridad{
     height: 40px;
     width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logoatencionpersonalizada{
     height: 40px;
     width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logovelocidadypuntualidad{
     width: 40px;
     height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 .logoexelencia{
     height: 40px;
@@ -291,6 +298,8 @@ nav ul li {
     height: 500px;
     padding-top: 20px;
 }
+
+
 
 /* MAIN NUESTRA FLOTA */
 
