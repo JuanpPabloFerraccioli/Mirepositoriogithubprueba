@@ -318,15 +318,16 @@ nav ul li {
 
 
 .especslj60{
-    text-align: center;
+    
     margin-top: 10px;
     margin-bottom: 10px;
     color: white;
+    list-style: none;
 }
 
 
 .beechcrafkingairb200{
-    text-align: center;
+    
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
@@ -339,14 +340,15 @@ nav ul li {
 }
 
 .especsb200{
-    text-align: center;
+    
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    list-style: none;
 }
 
 .bell407gxp{
-    text-align: center;
+    
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -355,21 +357,22 @@ nav ul li {
 }
 
 .b407foto{
-   
+
     margin-top: 15px;
 }
 
 .especsb407{
-    text-align: center;
+    
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    list-style: none;
 }
 
 /* SECTION FLOTA */
 
 .textoflota{
-    text-align: center;
+    
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
