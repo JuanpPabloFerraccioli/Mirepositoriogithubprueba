@@ -23,46 +23,6 @@ height: 200px;
 width: 200px;
 position: absolute;bottom: 200px;
 }
-/* Nav listas */
-nav ul li{
-    list-style: none;
-    display: inline;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    position: relative;left: 450px;
-    font: 25px sans-serif;
-    margin-top: 15px;
-}
-
-/* MAIN */
-/* texto empresa */
-.empresa{
-    text-align: center;
-    font: 20px sans-serif;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-/* por que elegirnos? */
-.H1{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
-.fotocrew{
-    position: relative;left: 350px;
-    
-}
-.listasM{
-text-align: center;
-margin-bottom: 20px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: white;
-}
 
 .logoseguridad{
     height: 40px;
@@ -97,16 +57,14 @@ footer{
 
 }
 
-.footerlogos{
-    position: relative;left: 1300px;
-    
+
 }
 
 .logofootercontacto{
 
     height: 180px;
     width: 180px;
-    position: relative;left: 50px;
+    
     margin-top: 100px;
     
 }
@@ -145,63 +103,19 @@ footer{
 /* LISTAS NAV CONTACTO */
 nav ul li {
 
-    list-style: none;
-    display: inline;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    position: relative;left: 450px;
+    
     font: 25px sans-serif;
 
 }
 /* MAIN */
 /*  FORMULARIOS CONTACTANOS */
-.contactanos{
-text-align: center;
-margin-top: 100px;
-color: white;
-}
 
-.formularionombre{
-
-text-align: center;
-margin: 20px;
-
-}
-
-.formularioapellido{
-
-    text-align: center;
-    margin: 20px;
-}
-
-.formulariotelefono{
-    text-align: center;
-    margin: 20px;
-}
-
-.formulariomail{
-
-    text-align: center;
-    margin: 20px;
-}
-
-.fomrulariocomentarios{
-
-    text-align: center;
-    margin: 20px;
-}
-
-.botonform{
-    text-align: center;
-    margin: 10px;
-}
 /* SECTION MAPA Y INFO DE CONTACTOS */
 .mapa{
 
     padding: 10px;
     margin: 10px;
-position:relative;right: 290px;
+
 }
 
 .informaciondecontactos{
@@ -219,7 +133,7 @@ position:relative;right: 290px;
 }
 
 .footerlogos{
-    position: relative;left: 1300px;
+    
     
 }
 
@@ -227,7 +141,7 @@ position:relative;right: 290px;
 
     height: 180px;
     width: 180px;
-    position: relative;left: 50px;
+   
     margin-top: 100px;
     
 }
@@ -278,20 +192,20 @@ position:relative;right: 290px;
 
 .fotobellgxp{
 
-    position: relative;left: 350px;
+    
     margin-top: 35px;
     
 }
 
 .cockpitb200{
-    position: relative;left: 350px;
+    
     margin-top: 20px;
 
 }
 
 
 .b200fligth{
-    position: relative;left: 350px;
+    
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -305,7 +219,7 @@ position:relative;right: 290px;
 }
 
 .footerlogos{
-    position: relative;left: 1300px;
+    
     
 }
 
@@ -313,7 +227,7 @@ position:relative;right: 290px;
 
     height: 180px;
     width: 180px;
-    position: relative;left: 50px;
+    
     margin-top: 100px;
     
 }
@@ -358,7 +272,7 @@ position:relative;right: 290px;
 }
 
 .bdmtaxing{
-    position: relative;left: 350px;
+    
     margin-top: 15px;
 
 }
@@ -381,7 +295,7 @@ position:relative;right: 290px;
 }
 
 .beechcraft200foto{
-    position:relative;left: 350px;
+    
     margin-top: 15px;
 }
 
@@ -402,7 +316,7 @@ position:relative;right: 290px;
 }
 
 .b407foto{
-    position: relative;left: 350px;
+   
     margin-top: 15px;
 }
 
@@ -432,7 +346,7 @@ position:relative;right: 290px;
 }
 
 .footerlogos{
-    position: relative;left: 1300px;
+
     
 }
 
@@ -499,7 +413,7 @@ position:relative;right: 290px;
 
 
 .interiorlear{
-    position: relative;left: 350px;
+
 
 }
 
@@ -520,7 +434,7 @@ position:relative;right: 290px;
 }
 
 .vuelosanitariofoto{
-    position: relative;left: 350px;
+
 
 }
 
@@ -541,7 +455,7 @@ position:relative;right: 290px;
 }
 
 .vuelodecargafoto{
-    position: relative;left: 350px;
+    
 
 }
 
@@ -564,7 +478,7 @@ position:relative;right: 290px;
 }
 
 .fotobellinciendio{
-    position: relative;left: 350px;
+
 
 }
 
@@ -585,7 +499,7 @@ position:relative;right: 290px;
 }
 
 .footerlogos{
-    position: relative;left: 1300px;
+
     
 }
 
@@ -593,7 +507,7 @@ position:relative;right: 290px;
 
     height: 180px;
     width: 180px;
-    position: relative;left: 50px;
+    
     margin-top: 100px;
     
 }
@@ -616,7 +530,4 @@ position:relative;right: 290px;
     width: 60px; 
     padding: 10px;
 }
-
-
-
 
