@@ -16,6 +16,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;si
     background-position: center center;
     height: 500px;
     padding-top: 20px;
+    
 }
 
 .logoheader{
@@ -177,10 +178,7 @@ nav ul li {
 
 }
 
-.learfooter{
-    margin-top: 35px;
-    margin-left: 150px;
-}
+
 .footerlogos{
     
     
