@@ -1,0 +1,586 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+background-color:#6C9BCF;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;size: 54px;
+
+}
+/* INDEX */
+/* header */
+.header{
+    background-image: url(../images/BDMHDsized.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    padding-top: 20px;
+    
+}
+
+.logoheader{
+height: 200px;
+width: 200px;
+position: absolute;bottom: 200px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    
+}
+
+.navbar-nav a{
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+}
+
+
+
+
+.textoempresa{
+    color: white;
+    font-size: 20px;
+}
+
+.text-center h1{
+    color: white;
+    
+}
+/* INDEX SECTION 2 */
+.listasM{
+    color: white;
+    list-style: none;
+}
+
+.logoseguridad{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logoatencionpersonalizada{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logovelocidadypuntualidad{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.logoexelencia{
+    height: 40px;
+    width: 40px;
+}
+
+
+/* footer */
+footer{
+    
+    padding-bottom: 50px;
+    background-color:black
+}
+
+.footercontactos{
+    background-color: black;
+
+}
+
+
+
+footer div .logofootercontacto{
+
+    height: 180px;
+    width: 180px;
+    
+    margin-top: 100px;
+    
+}
+
+.footerwpp{
+
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footerinstragram{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footermail{
+    height: 60px;
+    width: 60px; 
+    padding: 10px;
+}
+
+
+/* PAGINA CONTACTO */
+
+
+.headercontacto{
+    background-image:url(../images/b200\ ala\ baires.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    padding-top: 20px;
+
+}
+/* LISTAS NAV CONTACTO */
+nav ul li {
+
+    
+    font: 25px sans-serif;
+
+}
+/* MAIN */
+/*  FORMULARIOS CONTACTANOS */
+
+/* SECTION MAPA Y INFO DE CONTACTOS */
+
+
+
+.botonform{
+    margin-top: 25px;
+}
+
+.mapa{
+
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+
+}
+
+.informaciondecontactos{
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+.footercontactos{
+    background-color: black;
+
+}
+
+
+.footerlogos{
+    
+    
+}
+
+.logofootercontacto{
+
+    height: 180px;
+    width: 180px;
+
+    margin-top: 100px;
+    
+}
+
+.footerwpp{
+
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footerinstragram{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footermail{
+    height: 60px;
+    width: 60px; 
+    padding: 10px;
+}
+
+/* PAGINA NOSOTROS */
+/* HEADER */
+
+.headernosotros{
+    background-image: url(../images/nosotros.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    padding-top: 20px;
+
+}
+
+
+
+/* MAIN */
+
+.textonosotros{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* SECTION */
+
+.fotobellgxp{
+
+    
+    margin-top: 35px;
+    
+}
+
+.cockpitb200{
+    
+    margin-top: 20px;
+
+}
+
+
+.b200fligth{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* FOOTER NOSOTROS */
+
+
+.footercontactos{
+    background-color: black;
+
+}
+
+.footerlogos{
+    
+    
+}
+
+.logofootercontacto{
+
+    height: 180px;
+    width: 180px;
+    
+    margin-top: 100px;
+    
+}
+
+.footerwpp{
+
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footerinstragram{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footermail{
+    height: 60px;
+    width: 60px; 
+    padding: 10px;
+}
+
+/* PAGINA NUESTRA FLOTA */
+/* HEADER */
+
+.headerflota{
+    background-image: url(../images/learlanding.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    padding-top: 20px;
+}
+
+
+
+/* MAIN NUESTRA FLOTA */
+
+.lj60{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.bdmtaxing{
+    
+    margin-top: 15px;
+
+}
+
+
+.especslj60{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    list-style: none;
+}
+
+
+.beechcrafkingairb200{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+.beechcraft200foto{
+    
+    margin-top: 15px;
+}
+
+.especsb200{
+    
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.bell407gxp{
+    
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
+.b407foto{
+
+    margin-top: 15px;
+}
+
+.especsb407{
+    
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/* SECTION FLOTA */
+
+.textoflota{
+    
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* FOOTER NUESTRA FLOTA */
+
+
+.footercontactos{
+    background-color: black;
+
+}
+
+.footerlogos{
+margin-right: 25px;
+
+}
+
+
+
+.footerwpp{
+
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footerinstragram{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footermail{
+    height: 60px;
+    width: 60px; 
+    padding: 10px;
+}
+
+
+/* PAGINA SERVICIOS */
+/* HEADER */
+
+.headerservicios{
+    background-image: url(../images/lear31.png);
+    background-size: cover;
+    background-position:center center;
+    height: 500px;
+    padding-top: 20px;
+}
+
+/* MAIN */
+
+
+.textoservicios{
+    
+    margin-top: 35px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+.h1{
+    
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.interiorlear{
+
+
+}
+
+.textovueloejecutivos{
+    
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 18px;
+
+}
+
+.h2{
+    
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vuelosanitariofoto{
+
+
+}
+
+.textovuelosanitarios{
+    
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.h3{
+    
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.vuelodecargafoto{
+    
+
+}
+
+
+.textocarga{
+    
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.h4{
+    
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.fotobellinciendio{
+
+
+}
+
+.textoincendio{
+    
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* FOOTER SERVICIOS */
+
+
+.footercontactos{
+    background-color: black;
+
+}
+
+.footerlogos{
+
+    
+}
+
+.logofootercontacto{
+
+    height: 180px;
+    width: 180px;
+    
+    margin-top: 100px;
+    
+}
+
+.footerwpp{
+
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footerinstragram{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+.footermail{
+    height: 60px;
+    width: 60px; 
+    padding: 10px;
+}
+
+
+@media screen and (max-width : 576px) 
+{
+    .mapa {
+        width: 90%;
+    }
+}
+
