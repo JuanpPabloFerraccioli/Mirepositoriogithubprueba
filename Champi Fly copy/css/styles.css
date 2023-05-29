@@ -148,6 +148,12 @@ nav ul li {
 /*  FORMULARIOS CONTACTANOS */
 
 /* SECTION MAPA Y INFO DE CONTACTOS */
+
+
+.botonform{
+    margin-top: 25px;
+}
+
 .mapa{
 
     padding: 10px;
