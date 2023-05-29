@@ -150,6 +150,7 @@ nav ul li {
 /* SECTION MAPA Y INFO DE CONTACTOS */
 
 
+
 .botonform{
     margin-top: 25px;
 }
@@ -158,6 +159,7 @@ nav ul li {
 
     padding: 10px;
     margin: 10px;
+    width: 50px;
 
 }
 
@@ -175,6 +177,10 @@ nav ul li {
 
 }
 
+.learfooter{
+    margin-top: 35px;
+    margin-left: 150px;
+}
 .footerlogos{
     
     
