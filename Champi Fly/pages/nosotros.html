@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <title> Nosotros</title>
 </head>
@@ -14,70 +16,98 @@
     class="headernosotros">
         
     </header>
-
+    <!-- NAVEGACION PAGINA NOSOTROS -->
     <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="./nuestraflota.html">Nuestra Flota</a>
-            </li>
-            <li>
-                <a href="./nosotros.html">Nosotros</a>
-            </li>
-            <li><a href="./servicios.html">Servicios</a>
-            </li>
-            <li><a href="./contacto.html">Contacto</a>
-            </li>
-        </ul>
+        <div class="d-flex justify-content-center navbar"> 
+            <nav class="navbar navbar-expand-lg bg-#6C9BCF ">
+                <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="./nuestraflota.html">Nuestra Flota</a>
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./servicios.html">Servicos</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+                </div> 
+            </div>
     </nav>
     
     <main>
-
-    <div class="textonosotros" >
+    
+        <!-- MAIN NOSOTROS -->
+        <!-- TEXTO NOSOTROS MAIN -->
+    <div class="textonosotros text-center" >
 
     <p>
         Somos una empresa privada de traslados aereos, ofrecemos tanto el servicio de Carga, Transporte de pasajeros, Vuelos sanitarios y Combate de incendios forestales.</p>
 
     <p> Operando desde el año 2000, tenemos una amplia flota de Aeronaves e instalaciones operativas, permitiendo asi poder despegar y aterrizar a cuelquier destino.</p>
 
-  <p> Nuestro equipo de trabajo esta altamente capacitado con ingenieros Aeronauticos, Despachantes de Aereonaves, Operadores de Rampa y Señaleros, nuestros pilotos y Mecanicos estan certificados por Fligth Safety International habilitados para volar y ralizar el mantenimiento a nuestras Aeronaves.</p>
+    <p> Nuestro equipo de trabajo esta altamente capacitado con ingenieros Aeronauticos, Despachantes de Aereonaves, Operadores de Rampa y Señaleros, nuestros pilotos y Mecanicos estan certificados por Fligth Safety International habilitados para volar y ralizar el mantenimiento a nuestras Aeronaves.</p>
     
     </div>
 
 
     </main>
+    
+    <!-- SECTION NOSOTROS -->
 
-    <section>
+    <section class="container">
+        
+        <div class="row d-flex justify-content-center">
+        <!-- Foto Bell 407gxp -->
+        <img class="fotobellgxp col-8" src="/images/Bell407GXP.png" alt="foto helicoptero">
+        <!-- Foto Cockpit B200 -->
+        <img class="cockpitb200 col-8" src="/images/cockpit b200sized.jpg" alt="cockpitb200">
+        <!-- Foto b407gxp flight -->
+        <img class="b200fligth col-8" src="/images/b200 fligthsized.jpg" alt="b200fligth">
 
-        <img class="fotobellgxp" src="/Champi Fly/images/Bell407GXP.png" alt="foto helicoptero">
-
-        <img class="cockpitb200" src="/Champi Fly/images/cockpit b200sized.jpg" alt="cockpitb200">
-
-        <img class="b200fligth" src="/Champi Fly/images/b200 fligthsized.jpg" alt="b200fligth">
+    </div>
 
     </section>
+    
 
+    <!--  FOOTER NOSOTROS -->
+    
     <footer class="footercontactos">
+    
+        <div class="container">
+    
+        <div class="row">
+            
+    <!-- LOGO CHAMPI FLY FOOTER -->
 
-        <div>
+    <img class=" col-6 logofootercontacto d-flex justify-content-start" src="/images/logo_transparent.png" alt="logofootercontactos">
     
-    <img class="logofootercontacto" src="/Champi Fly/images/logo_transparent.png" alt="logofootercontactos">
     
-    </div>
+    <!-- LOGOS REDES SOCIALES -->
     
     <div class="footerlogos">
     
-        <img class="footerwpp" src="/Champi Fly/images/whatsapp logo.png" alt="">
+        <div class="row d-flex justify-content-end">
     
-        <img class="footerinstragram" src="/Champi Fly/images/instagram.png" alt="">
+        <img class="col-6 footerwpp" src="/images/whatsapp logo.png" alt="">
     
-        <img class="footermail" src="/Champi Fly/images/gmail logo.png" alt="">
+        <img class="col-6 footerinstragram" src="/images/instagram.png" alt="">
+    
+        <img class="col-6 footermail" src="/images/gmail logo.png" alt="">
     
     </div>
     
+    </div>
+    
+    </div>
+    </div>
+    
     </footer>
+
+    
+    
 
 
 

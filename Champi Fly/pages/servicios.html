@@ -4,124 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/styles.css">
     <title>Servicios</title>
 </head>
 <body>
-    
-<header 
-class="headerservicios">
+    <!-- HEADER FOTO LEAR -->
+<header class="headerservicios">
     
 </header>
-
+<!-- BARRA DE NAVEGACION -->
 <nav>
-    <ul>
-        <li>
-            <a href="../index.html">Inicio</a>
-        </li>
-        <li>
-            <a href="./nuestraflota.html">Nuestra Flota</a>
-        </li>
-        <li>
-            <a href="./nosotros.html">Nosotros</a>
-        </li>
-        <li><a href="./servicios.html">Servicios</a>
-        </li>
-        <li><a href="./contacto.html">Contacto</a>
-        </li>
-    </ul>
+    <div class="d-flex justify-content-center navbar"> 
+        <nav class="navbar navbar-expand-lg bg-#6C9BCF ">
+            <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="./nuestraflota.html">Nuestra Flota</a>
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./servicios.html">Servicos</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+            </div>
+            </div> 
+        </div>
 </nav>
 
 
 <main>
-
+<!-- MAIN -->
 
 <div>
-
-<p class="textoservicios">
+<!-- TEXTO EMPRESA PAG SERVICIOS -->
+<p class="textoservicios text-center">
     Somos una empresa que ofrece varios servicos, nuestras Aeronaves y personal estan estrictamente entrenados y capacitados para ofrecer servicio y cumplir con exelencia la demanda de nuestros clientes.
 </p>
 
 </div>
+<!-- H1 SERVICIOS -->
+<h1 class="h1 text-center">VUELOS EJECUTIVOS</h1>
 
-<h1 class="h1">VUELOS EJECUTIVOS</h1>
-
-<div>
-
-    <img class="interiorlear" src="/Champi Fly/images/Lear60sized.png" alt="interior lear60">
+<!-- FOTO INTERIOR LEAR 60XR -->
+<div class="container">
+<div class="row d-flex justify-content-center">
+    <img class="interiorlear col-8" src="/images/Lear60sized.png" alt="interior lear60">
 
 </div>
+</div>
 
+<!-- TEXTO VUELOS EJECUTIVOS PAG SERVICIOS -->
 <div>
 
-    <p class="textovueloejecutivos">
+    <p class="textovueloejecutivos text-center">
         Somos una empresa con mas de 20 años de experiencia en vuelos ejecutivos, brindamos una atencion personalizada a nuestros clientes con atencion a bordo , servicio de catering, Bar. Permitiendo garantizar seguridad y privacidad en nuestros vuelos tanto en vuelo como en tierra.
-    
     </p> 
 
 </div>
 
+<!-- H2 VUELOS SANITARIOS -->
+<h2 class="h2 text-center">VUELOS SANITARIOS</h2>
 
-<h2 class="h2">VUELOS SANITARIOS</h2>
 
-<div>
-
-    <img class="vuelosanitariofoto" src="/Champi Fly/images/vuelo sanitariosized.png" alt="vuelo sanitario">
+<!-- IMAGEN VUELO SANITARIOS -->
+<div class="container">
+<div class="row d-flex justify-content-center">
+    <img class="vuelosanitariofoto col-8" src="/images/vuelo sanitariosized.png" alt="vuelo sanitario">
 
 </div>
+</div>
 
+<!-- TEXTO VUELOS SANITARIOS PAGINA SERVICIOS -->
 <div>
-    <p class="textovuelosanitarios">
+    <p class="textovuelosanitarios text-center">
         Realizamos vuelos sanitarios con nuestras Aeronaves especialmente adaptadas y certificadas con nuestro  equipo de  medicos aeroevacuadores profesionales, para brindar rapidez , eficiencia , para salvar vidas.
     Estamos al servicio y disposicion las 24 HS de guardia, esperando su llamado para coordinar el despegue en los siguentes 60 minutos.
     </p>
 </div>
 
-<h3 class="h3">VUELO DE CARGA</h3>
+<!-- H3 VUELO DE CARGA PAG SERVICIOS -->
+<h3 class="h3 text-center">VUELO DE CARGA</h3>
 
-
-<div>
-    <img class="vuelodecargafoto" src="/Champi Fly/images/VUELO DE CARGAsized.jpg" alt="vuelo de carga">
+<!-- IMAGEN VUELO DE CARGA PAG SERVICIOS -->
+<div class="container">
+<div class="row d-flex justify-content-center">
+    <img class="vuelodecargafoto col-8" src="/images/VUELO DE CARGAsized.jpg" alt="vuelo de carga">
+</div>
 </div>
 
-
+<!-- TEXTO DE SECCION DE CARGA -->
 <div>
-    <p class="textocarga">
+    <p class="textocarga text-center">
         Somos una de las pocas empresas que ofrece servicio de Carga y Logistica en el pais, contamos con Aeronaves con  configuracion de carga para coordinar el vuelo a cualquier destino tanto dentro como fuera del pais en el menor tiempo posible.
     </p>
 </div>
 
-<h4 class="h4">COMBATE CONTRA INCENDIOS</h4>
+<!-- H4 COMBATE CONTRA INCENDIOS PAGINA SERVICIOS -->
+<h4 class="h4 text-center">COMBATE CONTRA INCENDIOS</h4>
 
-<div>
-    <img class="fotobellinciendio" src="/Champi Fly/images/407 INCENDIOsized.jpg" alt="foto de incendio">
+<!-- IMAGEN B407 INCENDIO PAG SERVICOS -->
+<div class="container">
+<div class="row d-flex justify-content-center">
+    <img class="fotobellinciendio col-8" src="/images/407 INCENDIOsized.jpg" alt="foto de incendio">
 </div>
+</div> 
 
+<!-- TEXTO INCENDIOS PAGINA SERVICOS -->
 <div>
-    <p class="textoincendio">
+    <p class="textoincendio text-center">
         Con nuesto Helicoptero Bell 407 GXP realizamos combate de incendio en zonas de montaña, con pilotos especializados en combate de incendios y uso de BAMBI BUCKET.
     </p>
 </div>
 
 </main>
 
-
+<!--  FOOTER PAG SERVICIOS -->
 <footer class="footercontactos">
+    
+    <div class="container">
 
-    <div>
+    <div class="row">
+        
+<!-- LOGO CHAMPI FLY FOOTER -->
 
-<img class="logofootercontacto" src="/Champi Fly/images/logo_transparent.png" alt="logofootercontactos">
+<img class=" col-6 logofootercontacto d-flex justify-content-start" src="/images/logo_transparent.png" alt="logofootercontactos">
 
-</div>
+
+<!-- LOGOS REDES SOCIALES -->
 
 <div class="footerlogos">
 
-    <img class="footerwpp" src="/Champi Fly/images/whatsapp logo.png" alt="">
+    <div class="row d-flex justify-content-end">
 
-    <img class="footerinstragram" src="/Champi Fly/images/instagram.png" alt="">
+    <img class="col-6 footerwpp" src="/images/whatsapp logo.png" alt="Logo whatsapp">
 
-    <img class="footermail" src="/Champi Fly/images/gmail logo.png" alt="">
+    <img class="col-6 footerinstragram" src="/images/instagram.png" alt="Logo instagram">
 
+    <img class="col-6 footermail" src="/images/gmail logo.png" alt="Logo Gmail">
+
+</div>
+
+</div>
+
+</div>
 </div>
 
 </footer>
